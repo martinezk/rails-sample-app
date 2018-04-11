@@ -6,7 +6,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   end
 
   test "should get root" do
-    get :home
+    get :home 
     assert_response :success
   end
 
